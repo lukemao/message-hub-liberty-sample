@@ -1,0 +1,11 @@
+applications:
+- path: target/MessageHubLibertyApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MessageHubLibertyApp
+  host: MessageHubLibertyApp
+  disk_quota: 1024M
+  env:
+    IBM_JVM_LICENSE:   L-JWOD-9SYNCP
+    IBM_LIBERTY_LICENSE:  L-MCAO-9SYMVC
