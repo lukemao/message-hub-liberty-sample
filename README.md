@@ -92,7 +92,13 @@ On the liberty app web page, you can produce a message by click on the button `p
 
 If the message was successfully produced and then consumed, then you can see the prompted message:
 
-####Already consumed messages:
+#####Already consumed messages:
 ```shell
 Message: [{"value":"This is a test message, msgId=0"}]. Offset: 1
+ ```
+[[post message]] 
+ 
+#####We have produced a message: ```shell This is a test message, msgId=0  ```
+```shell
+Consumed messages: [{"value":"This is a test message, msgId=0"}]. Offset: 1
  ```
